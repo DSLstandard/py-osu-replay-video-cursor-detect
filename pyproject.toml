@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "reverseosuvid"
+version = "0.1.0"
+description = ""
+authors = ["dosh <none>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+opencv-python = "^4.8.1.78"
+numpy = "^1.26.2"
+tqdm = "^4.66.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
